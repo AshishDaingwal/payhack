@@ -1,6 +1,5 @@
 import Heading from '../components/Heading';
 import React from 'react'
-//import TransactionList from "./TransactionList";
 import SpentAnalysis from "./SpentAnalysis";
 import DateRange from "./DateRange";
 
@@ -19,9 +18,6 @@ const Home = (props) => {
             </Heading>
             {/*<TransactionList>*/}
             {/*</TransactionList>*/}
-            <DateRange>
-
-            </DateRange>
         </React.Fragment>
     )
 }
