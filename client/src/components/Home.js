@@ -13,9 +13,9 @@ const Home = (props) => {
             >
 
             </SpentAnalysis>
-            <Heading>
+            {/*<Heading>*/}
 
-            </Heading>
+            {/*</Heading>*/}
             {/*<TransactionList>*/}
             {/*</TransactionList>*/}
         </React.Fragment>
