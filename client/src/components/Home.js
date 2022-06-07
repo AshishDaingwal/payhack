@@ -7,6 +7,13 @@ import DateRange from "./DateRange";
 const Home = (props) => {
     return(
         <React.Fragment>
+
+            <SpentAnalysis
+                sdate={props.sdate}
+                edate={props.edate}
+            >
+
+            </SpentAnalysis>
             <Heading>
 
             </Heading>
@@ -15,12 +22,6 @@ const Home = (props) => {
             <DateRange>
 
             </DateRange>
-            <SpentAnalysis
-                sdate={props.sdate}
-                edate={props.edate}
-            >
-
-            </SpentAnalysis>
         </React.Fragment>
     )
 }
